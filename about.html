@@ -18,8 +18,38 @@
             background-size: cover;
             font-family: 'Chakra Petch', sans-serif;
         }
+        
+        li {
+            float: right;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(255, 0, 0);
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
     </style>
     </head>
     <body>
+        <ul class = navbar-right>
+            <li><a class="active" href="/about.html">あんたは誰だ？</a></li>
+            <li><a href="/qr/qr.html">QRCode</a></li>
+            <li><a href="/ref.html">References</a></li>
+            <li><a href="/model/model.html">Model</a></li>
+            <li><a href="/rick.html">Rick Roll</a></li>
+            <li><a href="/viroj.html">Viroj Roll</a></li>
+        </ul>
     </body>
 </html>
