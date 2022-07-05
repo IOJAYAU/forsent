@@ -11,8 +11,8 @@
                 top: 0;
                 width: 100%;
                 overflow: hidden;
-                background-color: #333333;
-                border-bottom: 1px solid #fff;
+                background-color: white;
+                border-bottom: 1px solid #000000;
             }
             
             li {
@@ -22,7 +22,7 @@
             li a,
             .dropbtn {
                 display: inline-block;
-                color: white;
+                color: black;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
@@ -56,15 +56,16 @@
             <li><a href="/rick.html">Rick Roll</a></li>
             <li><a href="/viroj.html">Viroj Roll</a></li>
         </ul>
+        <br></br>
         <input id="text" type="text" 
             value="" style="Width:20%"
             onblur='generateBarCode();' /> 
         <br></br>
         <img id='barcode' 
-                src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=600x600" 
+                src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=1200x1200" 
                 alt="" 
                 title="HELLO" 
-                width="50" 
-                height="50" />
+                width="500" 
+                height="500" />
     </body>
 </html>
