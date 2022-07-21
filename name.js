@@ -35,4 +35,4 @@ switch(day) {
 }
 
 document.getElementById("specials").innerHTML = specials;
-document.getElementById("messgae").innerHTML = messgae;
+document.getElementById("message").innerHTML = message;
