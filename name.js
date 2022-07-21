@@ -4,25 +4,25 @@ const currentDay = new Date().getDay();
 // from sunday to saturday
 switch(currentDay) {
   case 0:
-    specials = '';
+    specials = 'Sunday';
     break;
  case 1:
-    specials = '$4.00 Burgers All Day';
+    specials = 'Monday';
     break;
  case 2:
-    specials = '$1.25 Tacos All Day';
+    specials = 'Tuesday';
     break;
  case 3:
-    specials = '$0.70 Wings All Day';
+    specials = 'Wednesday';
     break;
  case 4:
-   specials = '$6.49 Steak or Chicken Philly';
+   specials = 'Thursday';
     break;
  case 5:
-    specials = '';
+    specials = 'Friday';
     break;
  case 6:
-    specials = '';
+    specials = 'Saturday';
     break;
 }
 
