@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API Data</title>
+</head>
+<body>
+    <div id="data"></div>
+
+    <script>
+        const url = 'https://blynk.cloud/external/api/get?token=qUmCRBq6jQknDnYZ36opiFUHuLzPYT3a&v0';
+        const dataDiv = document.getElementById('data');
+    
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                dataDiv.innerHTML = data[0]; // assuming the data is an array with a single element
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+</html>
